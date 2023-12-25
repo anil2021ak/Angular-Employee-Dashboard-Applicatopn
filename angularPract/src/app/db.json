@@ -4,7 +4,7 @@
       "id": 1,
       "firstName": "Anil",
       "lastName": "Kumar",
-      "email": "anilak2021",
+      "email": "anilak2021@gmail.com",
       "mobile": 78945,
       "salary": "711485"
     },
@@ -205,6 +205,13 @@
       "password": "anil123",
       "mobile": 9701272567,
       "id": 20
+    },
+    {
+      "fullName": "aaa",
+      "email": "aaa@gmail.com",
+      "password": "aaa",
+      "mobile": 123,
+      "id": 21
     }
   ],
   "profile": {
