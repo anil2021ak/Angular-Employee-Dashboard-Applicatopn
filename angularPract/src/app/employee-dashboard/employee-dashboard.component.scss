@@ -1,0 +1,18 @@
+.crud-head{
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 40px;
+    // text-decoration: underline;
+}
+span{
+    color: red;
+    font-size:15px ;
+    font-weight: bold;
+
+}
+input.ng-invalid{
+    border-left: 5px solid red;
+}
+input.ng-valid{
+    border-left: 8px solid rgb(156, 255, 7);
+}

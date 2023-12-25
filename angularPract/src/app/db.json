@@ -1,0 +1,213 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Anil",
+      "lastName": "Kumar",
+      "email": "anilak2021",
+      "mobile": 78945,
+      "salary": "711485"
+    },
+    {
+      "id": 2,
+      "firstName": "Kiran",
+      "lastName": "kumar",
+      "email": "kirankiran",
+      "mobile": 123456,
+      "salary": "74185"
+    },
+    {
+      "id": 4,
+      "firstName": "Naveen",
+      "lastName": "donga",
+      "email": "dongaNaveen",
+      "mobile": 646448,
+      "salary": "474646"
+    },
+    {
+      "id": 5,
+      "firstName": "Murali",
+      "lastName": "murali.",
+      "email": "murali@gmail.com",
+      "mobile": 5464,
+      "salary": "74747"
+    },
+    {
+      "id": 8,
+      "firstName": "anil",
+      "lastName": "anil",
+      "email": "anilak@gmail.com",
+      "mobile": 12345,
+      "salary": "4567"
+    },
+    {
+      "id": 10,
+      "firstName": "Anil",
+      "lastName": "kumar",
+      "email": "anilak@gmail.com",
+      "mobile": 85852652,
+      "salary": "525858"
+    },
+    {
+      "id": 11,
+      "firstName": "sai",
+      "lastName": "ram",
+      "email": "sai@123gmil.com",
+      "mobile": 12345,
+      "salary": "11234567890"
+    },
+    {
+      "id": 12,
+      "firstName": "tulasi",
+      "lastName": "lassi",
+      "email": "tulasi123@gmail.com",
+      "mobile": 12345678,
+      "salary": "123456789"
+    }
+  ],
+  "signupusers": [
+    {
+      "fullName": "Kiran",
+      "email": "kumar",
+      "password": "kiran789",
+      "mobile": 123456789,
+      "id": 1
+    },
+    {
+      "fullName": "Anil",
+      "email": "anilak",
+      "password": "anilak",
+      "mobile": 123456,
+      "id": 2
+    },
+    {
+      "fullName": "saran",
+      "email": "saranteja",
+      "password": "1234",
+      "mobile": 12345,
+      "id": 3
+    },
+    {
+      "fullName": "naveen",
+      "email": "naveen",
+      "password": "1234",
+      "mobile": 1234,
+      "id": 4
+    },
+    {
+      "fullName": "siva",
+      "email": "teja",
+      "password": "sivasiva",
+      "mobile": 1234,
+      "id": 5
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 6
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 7
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 8
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 9
+    },
+    {
+      "fullName": "Anil",
+      "email": "anilak@gmail.com",
+      "password": "1234",
+      "mobile": 1234,
+      "id": 10
+    },
+    {
+      "fullName": "anil",
+      "email": "anil2021ak@gmail.com",
+      "password": "1234",
+      "mobile": 1235,
+      "id": 11
+    },
+    {
+      "fullName": "qwerty",
+      "email": "asdf@gmail.com",
+      "password": "1234",
+      "mobile": 1234,
+      "id": 12
+    },
+    {
+      "fullName": "nagasyam",
+      "email": "kicksyam9900@gmail.com",
+      "password": "Syam1620",
+      "mobile": 1620,
+      "id": 13
+    },
+    {
+      "fullName": "test",
+      "email": "test@gmail.com",
+      "password": "Test@123",
+      "mobile": 123456789,
+      "id": 14
+    },
+    {
+      "fullName": "murali",
+      "email": "murali@gmail.com",
+      "password": "1234",
+      "mobile": 999,
+      "id": 15
+    },
+    {
+      "fullName": "AnilKumar",
+      "email": "anilak@gmail.com",
+      "password": "1111",
+      "mobile": 1234567,
+      "id": 16
+    },
+    {
+      "fullName": "sai",
+      "email": "sai@123gmil.com",
+      "password": "1234",
+      "mobile": 1234,
+      "id": 17
+    },
+    {
+      "fullName": "tulasi",
+      "email": "tulasi123@gmail.com",
+      "password": "1234",
+      "mobile": 12345678,
+      "id": 18
+    },
+    {
+      "fullName": "Tulasi",
+      "email": "tulasi123@gmail.com",
+      "password": "1234",
+      "mobile": 12345678,
+      "id": 19
+    },
+    {
+      "fullName": "anil",
+      "email": "anilak@gmail.com",
+      "password": "anil123",
+      "mobile": 9701272567,
+      "id": 20
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,52 @@
+<div class="container">
+    <div class='row'>
+        <div class="col-md-6">
+            <div>
+                <img src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg" class="img-size mb-3"/>
+            </div>
+
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1 class="text-color ">Sign-Up</h1>
+                    <h5 class="text-color">Register Yourself!</h5>
+                </div>
+                <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label text-color">FullName:</label>
+                        <input [class.is-invalid]="signupForm.controls['fullName'].invalid && signupForm.controls['fullName'].touched" formControlName="fullName" type="text" class="form-control" id="exampleInput1">
+                        <span *ngIf="signupForm.controls['fullName'].invalid && signupForm.controls['fullName'].touched ">*Required</span>
+
+                      </div>
+                      
+                    <div class="mb-3 mt-3 form-group">
+                      <label for="exampleInputEmail1" class="form-label text-color">Email address:</label>
+                      <input  formControlName="email" type="email" class="form-control" id="exampleInputEmail1"/>
+                      <div id="emailHelp" style="color: black;font-family:cursive">We'll never share your email with anyone else.</div>
+                      <span *ngIf="signupForm.controls['email'].invalid && signupForm.controls['email'].touched ">*Required</span>
+
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label text-color">Password:</label>
+                      <input [class.is-invalid]="signupForm.controls['password'].invalid && signupForm.controls['password'].touched " formControlName="password" type="password" class="form-control" id="exampleInputPassword1"/>
+                      <span *ngIf="signupForm.controls['password'].invalid && signupForm.controls['password'].touched ">*Required</span>
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label text-color">Mobile Number:</label>
+                        <input formControlName="mobile" type="number" class="form-control" id="exampleInput2">
+                        <span *ngIf="signupForm.controls['mobile'].invalid && signupForm.controls['mobile'].touched ">*Required</span>
+                      </div>
+                    <button type="submit" [disabled]="signupForm.invalid" class="btn btn-primary mb-3">Sign Up</button>
+                  </form>
+
+                  <a routerLink="/login" style="color: rgb(172, 229, 172);">Already Registered? Click to Login</a>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
